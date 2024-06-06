@@ -6,8 +6,10 @@ import { VitePWA } from 'vite-plugin-pwa'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: './',
   plugins: [react(), VitePWA({
     manifest: {
+      id: '/vite-todo-app/',
       // ユーザーに通常表示されるアプリ名
       name: 'Todo App (PWA)',
       // name を表示するのに十分なスペースがない場合に表示されるアプリ名
