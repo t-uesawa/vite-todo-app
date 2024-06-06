@@ -15,7 +15,7 @@ const TodoBackdrop = styled(Backdrop)(({ theme }) => ({
 export const QR = (props: Props) => {
 	return (
 		<TodoBackdrop open={props.qrOpen} onClick={props.onClose}>
-			<QRCode value="https://sprout2000.github.io/todo"></QRCode>
+			<QRCode value="https://t-uesawa.github.io/vite-todo-app"></QRCode>
 		</TodoBackdrop>
 	)
 }
